@@ -1,0 +1,42 @@
+.btn{
+    background-color:#DFF6FF; 
+  color: black; 
+  border: 2px solid #084594;
+  /* margin-top: 2%; */
+  text-align: center;
+}
+.btn:hover{
+    background-color: #084594;
+    color: white;
+    border: 2px solid #084594;
+}
+body{
+    background-color: #DFF6FF;
+    font-family: 'Poppins', sans-serif;
+}
+.a{
+    background-color: #3399ff;
+    padding: 5%;
+    position: fixed; /* or absolute */
+  top: 25%;
+  left: 30%;
+  border-radius: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .a{
+        left: 5%;
+        right: 5%;
+    }
+}
+
+.b{
+    text-align: center;
+}
+.bu{
+    text-align: center;
+}
+p{
+    margin-top: 4%;
+}
